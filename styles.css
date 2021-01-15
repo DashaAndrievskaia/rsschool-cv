@@ -1,0 +1,211 @@
+.content{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+footer{
+    color: #1F2B3B;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center
+}
+.content-footer{
+    margin-bottom: 20px;
+}
+hr{
+    border-top: #E5E5E5;
+    margin-bottom: 60px;
+}
+
+.content-header {
+    height: 360px;
+    margin-bottom: 60px;
+}
+.photo-block {
+    display: inline-block;
+    width: 39%;
+    height: 100%;
+}
+
+.name-block {
+    display: inline-block;
+    width: 60%;
+    height: 100%;
+    vertical-align: top;
+}
+
+.photo-mobile {
+    vertical-align: middle;
+}
+
+.photo-email {
+    vertical-align: middle;
+
+}
+
+.linkedin {
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #0912E6;
+}
+
+.github {
+    color: #0912E6;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 55px;
+}
+
+.email {
+    color: #1F2B3B;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    margin: 17px;
+}
+
+.mobile {
+    color: #1F2B3B;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    margin: 20px;
+}
+
+@font-face {
+    font-family: Lato-Bold;
+    src: url(./assets/Lato-Bold.ttf);
+}
+
+p {
+    color: #1F2B3B;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+
+}
+
+
+h1 {
+    color: #0912E6;
+    font-family: Lato-Bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 62px;
+
+}
+
+h2 {
+    color: #0912E6;
+    text-transform: uppercase;
+    font-family: Lato-Bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 36px;
+}
+
+.front {
+    color: #1f2b3bad;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 37px;
+    margin-bottom: 70px;
+}
+
+
+li {
+    color: #0912E6;
+    padding-left: 1px;
+    margin-left: -23px;
+}
+
+li span {
+    color: #1F2B3B;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+
+}
+
+.skills li,
+.contact li{
+    margin-bottom: 15px;
+}
+
+.contact li{
+    list-style-type: none;
+    margin-left: -45px;
+}
+
+.content-left {
+    display: inline-block;
+    width: 39%;
+    vertical-align: top;
+}
+
+.content-right {
+    display: inline-block;
+    width: 60%;
+    vertical-align: top;
+}
+
+.info-block {
+    margin-bottom: 30px;
+}
+
+.photo {
+    width: 294px;
+    height: 360px;
+    object-fit: cover;
+}
+
+
+.photo {
+    -webkit-box-shadow:
+        inset 0 0 1px rgba(214, 209, 209, 0.8),
+        inset 0 2px 0 rgba(255, 255, 255, .5),
+        inset 0 -1px 0 rgba(0, 0, 0, .4);
+    -moz-box-shadow:
+        inset 0 0 1px rgba(0, 0, 0, .8),
+        inset 0 2px 0 rgba(255, 255, 255, .5),
+        inset 0 -1px 0 rgba(0, 0, 0, .4);
+    box-shadow:
+        inset 0 0 1px rgba(0, 0, 0, .8),
+        inset 0 2px 0 rgba(255, 255, 255, .5),
+        inset 0 -1px 0 rgba(0, 0, 0, .4);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+
+.code {
+    background-color: #F6F6F6;
+    margin: 0;
+    padding: 20px;
+    margin-right: 85px;
+}
+
+pre {
+    margin: 0;
+}
