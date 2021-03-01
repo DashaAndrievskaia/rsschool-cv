@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./assets/Lato-Bold.ttf">
+    <link rel="stylesheet" href="./assets/ProximaNova-Regular.ttf">
+</head>
+
+<body>
+    <div class="content">
+        <div class="content-header">
+            <div class="photo-block">
+                <img src="./assets/IMG_2192.jpg" alt=Photo width="294" height="360" class="photo">
+            </div>
+            <div class="name-block">
+                <header>
+                <article>
+                    <h1>Daria Andrievskaia </h1>
+                    <p class="front">Front-end developer</p>
+                    <a class="linkedin" target="_blank"
+                        href="https://www.linkedin.com/in/darya-andrievskaya/">Linkedin</a>
+                    <a class="github" target="_blank" href="https://github.com/DashaAndrievskaia">Github</a>
+                </article>
+            </header>
+            </div>
+        </div>
+        <hr>
+        <div class="content-body">
+            <div class="content-left">
+                <div class="contact info-block">
+                    <h2>Contact</h2>
+                    <ul>
+                        <li>
+                            <img src="./assets/smartphone-call.png" alt=Photo width="20" height="20"
+                                class="photo-mobile">
+                            <a href="tel:+375336355739" class="mobile">+375 33 635 57 39</a>
+                        </li>
+                        <li>
+                            <img src="./assets/email.png" alt=Photo width="20" height="20" class="photo-email">
+                            <a href="mailto:andrievskaya.dd@gmail.com" class="email">andrievskaya.dd@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="skills info-block">
+                    <h2>Skills</h2>
+                    <main>
+                    <ul>
+                        <li><span>HTML</span></li>
+                        <li><span>CSS</span></li>
+                        <li><span>Java Script</span></li>
+                        <li><span>GitHub</span></li>
+                        <li><span>Figma</span></li>
+                        <li><span>Adobe Photoshop</span></li>
+                        <li><span>Adobe Illustrator</span></li>
+                    </ul>
+                </main>
+                </div>
+            </div>
+            <div class="content-right">
+                <div class="summary info-block">
+                    <h2>Summary</h2>
+                    <p>I am a beginner developer with experience in UI/UX design. I easily master <br>
+                        something new, I want to learn not only to create a design, but also to bring <br>
+                        ideas to life</p>
+                </div>
+                <div class="experience info-block">
+                    <h2>Experience</h2>
+                    <p>Udemy — Java Script + React</p>
+                    <p>IT Academy — UI/UX design</p>
+                    <p>Designwithlove#5 — UI/UX design</p>
+                    <p>CIDR — Digital design</p>
+                </div>
+                <div class="code-examples info-block">
+                    <h2>Code examples</h2>
+                    <figure class="code">
+                        <pre>
+function rememberMyFilms() {
+    for (let i = 0; i &lt; 2; i++) {
+        const a = prompt('Один из последних просмотренных фильмов?', ''),
+            b = prompt('На сколько оцените его?', '');
+
+        if (a != null && b != null && a != '' && b != '' && a.length &lt; 50) {
+            personalMovieDB.movies[a] = b;
+            console.log('done');
+        } else {
+            console.log('error');
+            i--;
+        }
+    }
+}
+
+rememberMyFilms();
+</pre>
+                    </figure>
+                </div>
+                <div class="education info-block">
+                    <h2>Education</h2>
+                    <p>Minsk State Architectural and Construction college</p>
+                </div>
+                <div class="english-level info-block">
+                    <h2>English level</h2>
+                    <p>Current level - A1 and I'm hard working to achieve A2 soon</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content-footer">
+        <footer>
+© All Rights Reserved. 2021
+        </footer>
+    </div>
+</body>
+</html>
