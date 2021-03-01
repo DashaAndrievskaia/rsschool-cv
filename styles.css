@@ -53,6 +53,13 @@ hr{
     font-size: 18px;
     line-height: 22px;
     color: #0912E6;
+    text-decoration: none;
+}
+
+.linkedin:hover,
+.linkedin:focus,
+.linkedin:active{
+    opacity: .70;;
 }
 
 .github {
@@ -63,6 +70,13 @@ hr{
     font-size: 18px;
     line-height: 22px;
     margin: 55px;
+    text-decoration: none;
+}
+
+.github:hover,
+.github:focus,
+.github:active{
+    opacity: .70;;
 }
 
 .email {
@@ -73,6 +87,13 @@ hr{
     font-size: 18px;
     line-height: 26px;
     margin: 17px;
+    text-decoration: none;
+}
+
+.email:hover,
+.email:focus,
+.email:active{
+    opacity: .70;;
 }
 
 .mobile {
@@ -83,6 +104,13 @@ hr{
     font-size: 18px;
     line-height: 26px;
     margin: 20px;
+    text-decoration: none;
+}
+
+.mobile:hover,
+.mobile:focus,
+.mobile:active{
+    opacity: .70;;
 }
 
 @font-face {
